@@ -36,7 +36,7 @@ function App() {
         <div
             className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
             style={{
-                backgroundImage: `url('https://img.freepik.com/free-photo/cardano-blockchain-platform_23-2150411964.jpg?t=st=1711285545~exp=1711289145~hmac=81d21f6f4142c33399a640b33723d3e84fb41cfe5ce6beb2b42f3c0fa6b2bcab&w=740')`,
+                backgroundImage: `url('https://img.freepik.com/free-photo/wealthy-investment-metal-coins-pays-off-generated-by-ai_188544-19981.jpg?t=st=1715091771~exp=1715095371~hmac=75ac678c90e31f8a1ab47514e151b332b42a1092b860e8ce56c1d9c9568a45b0&w=826')`,
             }}
         >
             <div className="w-full">
@@ -60,7 +60,7 @@ function App() {
                         <div className="relative w-full h-0.5">
                             <button
                                 type="button"
-                                className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 border-2 border-white rounded-md bg-blue-600 text-white px-2 py-0.5"
+                                className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 border-2 border-white rounded-md bg-black text-white px-2 py-0.5"
                                 onClick={swap}
                             >
                                 swap
@@ -76,7 +76,7 @@ function App() {
                                 amountDisable
                             />
                         </div>
-                        <button type="submit" className="w-full bg-blue-600 text-white px-4 py-3 rounded-lg">
+                        <button type="submit" className="w-full bg-black text-white px-4 py-3 rounded-lg">
                             Convert {from.toUpperCase()} to {to.toUpperCase()}
                         </button>
                     </form>
